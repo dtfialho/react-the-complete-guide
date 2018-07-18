@@ -1,0 +1,18 @@
+.userOutput {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.userOutput input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 2px;
+  transition: .3s;
+}
+
+.userOutput input:focus {
+  outline: none;
+  border-bottom: 1px solid #ff00ff;
+}
