@@ -36,7 +36,7 @@ class NewPost extends Component {
                     <option value="Diego">Diego</option>
                     <option value="Manu">Manu</option>
                 </select>
-                <button onClick={() => this.postDataHandler()}>Add Post</button>
+                <button onClick={this.postDataHandler}>Add Post</button>
             </div>
         );
     }
